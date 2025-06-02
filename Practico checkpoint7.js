@@ -1,9 +1,9 @@
 function calcular(num1, num2, num3, num4) {
 
-  const primerosDos = num1 + num2;
+  const PrimerosDos = num1 + num2;
   const SegundosDos = num3 + num4;
 
-  const Multiplicacion = sumaPrimerosDos * sumaSegundosDos;
+  const Multiplicacion = PrimerosDos * SegundosDos;
 
   if (Multiplicacion > 50) {
     console.log(`El numero ${Multiplicacion} es mayor que 50`);
